@@ -75,21 +75,24 @@
 <style scoped>
 
     .contenedor-grafico {
-        position: relative; 
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .porcentaje {
         position: absolute;
         margin: auto;
-        top: calc(50% - 1.5rem);
-        left: 0;
-        right: 0;
+        top: 40%;
+        bottom: 0;
         text-align: center;
         z-index: 100;
         font-size: 3rem;
         font-weight: 900;
         color: var(--gris-oscuro);
     }
+
     .dos-columnas{
         display: flex;
         flex-direction: column;
